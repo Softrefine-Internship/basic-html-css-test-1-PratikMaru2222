@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: #777;
+  width: 100%;
+  height: 60px;
+}
+
+/* SECTION-1 */
+.section-1 {
+  background-color: #fff;
+}
+
+.heading-1 {
+  background-color: #777;
+  width: 50%;
+  height: 60px;
+  margin: 55px auto;
+}
+
+.left-box {
+  background-color: #777;
+  width: 49%;
+  height: 700px;
+  float: left;
+}
+.right-box {
+  background-color: #777;
+  width: 49%;
+  height: 700px;
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* SECTION-2 */
+.section-2 {
+  background-color: #fff;
+}
+
+.heading-2 {
+  background-color: #777;
+  width: 60%;
+  height: 60px;
+  margin: 55px auto;
+}
+
+.container-1 {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #777;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin-top: 0;
+}
+
+.box5,
+.box6,
+.box7,
+.box8 {
+  margin-bottom: 0;
+}
+
+.bottom-bar {
+  background-color: #777;
+  width: 65%;
+  height: 60px;
+  margin: 55px auto;
+}
+
+/* SECTION-3 */
+.section-3 {
+  background-color: #777;
+}
+
+.container-2 {
+  width: 1310px;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+
+.card {
+  background-color: #fff;
+  float: left;
+  padding: 30px;
+  margin-right: 40px;
+}
+
+.card3 {
+  margin-right: 0;
+}
+
+.title {
+  background-color: #777;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.upper-box {
+  margin-bottom: 30px;
+}
+
+.upper-box,
+.lower-box {
+  background-color: #777;
+  width: 350px;
+  height: 275px;
+}
+
+/* SECTION-4 */
+.section-4 {
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.heading-4 {
+  background-color: #777;
+  width: 60%;
+  height: 60px;
+  margin: 55px auto;
+}
+
+.block {
+  background-color: #777;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.last-block {
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.left-block {
+  width: 48.5%;
+  float: left;
+}
+
+.right-block {
+  width: 48.5%;
+  float: right;
+}
+
+/* FOOTER */
+footer {
+  background-color: #777;
+  width: 100%;
+  padding: 30px;
+}
+
+.left-part {
+  background-color: #fff;
+  height: 300px;
+  width: 715px;
+  float: left;
+}
+
+.right-part {
+  background-color: #fff;
+  height: 300px;
+  width: 715px;
+  float: right;
+}
